@@ -9,7 +9,8 @@ const PUBLIC_FILES = new Map([
   ['/', 'index.html'],
   ['/index.html', 'index.html'],
   ['/style.css', 'style.css'],
-  ['/script.js', 'script.js']
+  ['/script.js', 'script.js'],
+  ['/assets/favicon.svg', 'assets/favicon.svg']
 ]);
 
 const ALLOWED_APPS = new Map([
@@ -21,6 +22,7 @@ const CONTENT_TYPES = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.js': 'application/javascript; charset=utf-8',
+  '.svg': 'image/svg+xml',
   '.json': 'application/json; charset=utf-8'
 };
 
